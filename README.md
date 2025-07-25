@@ -87,13 +87,16 @@ You can deploy your app to the web using Streamlit Community Cloud. Just sign in
 
 
 💾 Sample Image Preview
+
 You can add a preview screenshot here if desired:
 📸 [Upload a sample image and copy its link to paste here]
 
 🧠 Author
+
 Rajrishi Kashyap
 
 📝 License
+
 This project is licensed under the MIT License. You are free to use and modify it.
 
 
