@@ -8,9 +8,9 @@ SmartMed is a deep learning web app that classifies breast images as **Benign** 
 
 ## Why I Built This
 
-I wanted to understand whether a simple CNN could reliably classify medical images with minimal preprocessing. BreastMNIST was a good test — small images (28x28), binary classification, real clinical stakes.
+I wanted to understand whether a simple CNN could reliably classify medical images with minimal preprocessing. BreastMNIST was a good test, small images (28x28), binary classification, real clinical stakes.
 
-**What surprised me:** The model hit ~89% accuracy quickly, but accuracy turned out to be misleading. Class imbalance caused the model to predict "benign" too confidently. I had to tune the decision threshold and switch focus to F1-score and confusion matrix analysis — a more honest measure of performance for imbalanced medical data.
+**What surprised me:** The model hit ~89% accuracy quickly, but accuracy turned out to be misleading. Class imbalance caused the model to predict "benign" too confidently. I had to tune the decision threshold and switch focus to F1-score and confusion matrix analysis, a more honest measure of performance for imbalanced medical data.
 
 ---
 
