@@ -9,10 +9,10 @@ SmartMed is a deep learning-based web application that classifies grayscale brea
 ## Why I Built This
 
 I wanted to understand whether a simple CNN could reliably classify medical images with minimal data preprocessing. 
-The BreastMNIST dataset was a good test — small images (28x28), binary classification, real clinical stakes.
+The BreastMNIST dataset was a good test, small images (28x28), binary classification, real clinical stakes.
 
 **What surprised me:** The model hit ~89% accuracy fairly quickly, but I expected it to struggle more. 
-What actually caused issues was the class imbalance in the dataset — the model kept predicting "benign" too confidently. 
+What actually caused issues was the class imbalance in the dataset, the model kept predicting "benign" too confidently. 
 I had to tune the decision threshold rather than just optimise accuracy, which taught me that accuracy is a misleading 
 metric for imbalanced medical datasets. F1-score and confusion matrix analysis mattered more here.
 
