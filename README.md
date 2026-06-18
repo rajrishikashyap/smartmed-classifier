@@ -1,4 +1,4 @@
-# 🧠 SmartMed — Breast Cancer Classification Web App
+# 🧠 SmartMed - Breast Cancer Classification Web App
 
 SmartMed is a deep learning web app that classifies breast images as **Benign** or **Malignant** using a CNN trained on the BreastMNIST dataset. Built to explore whether a lightweight model could achieve clinically useful accuracy with minimal preprocessing.
 
